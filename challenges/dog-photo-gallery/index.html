@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="displayImges">
+
+    </div>
+    <ul id="listImg"></ul>
+    <button id="displayButton">Next picture</button>
+    <style>
+        ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: rgb(206, 213, 213);
+            width: 50%;
+        }
+
+        li {
+            display: inline;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        #displayButton {
+            padding: 20px;
+            border-radius: 25px;
+        }
+    </style>
+    <script src="./display.js"></script>
+</body>
+
+</html>
