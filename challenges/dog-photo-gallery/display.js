@@ -1,7 +1,7 @@
 const buttonDisplay = document.getElementById("displayButton");
 const body = document.getElementsByName("body");
 buttonDisplay.addEventListener("click", (nextImg) => {
-  fetch("https://dog.ceo/api/breeds/image/random")
+  fetch("https://dog.ceo/api/breeds/image/randomcsd")
     .then((res) => res.json())
     .then((data) => getImgesFromApi(data))
     .catch((err) => displayError(err));
